@@ -1,30 +1,41 @@
 import React from 'react';
-import PropTypes from "prop-types";
 
-function Food({name, rating}) {
-  return (
-    <div>
-    <h1>I love {name}</h1>
-    <h2>{rating}/5.0</h2>
-    </div>
-  );
+class App extends React.Component{
+  constructor(props) {
+    super(props);
+    console.log("hello");
+  }
+  state = {
+    count: 0
+  }
+  add = () => {
+    this.setState(current => ({count: current.count + 1}));
+  }
+  minus = () => {
+    this.setState(current => ({count: current.count + 1}));
+  }
+  componentDidMount() {
+    console.log("rendred")
+  }
+  componentDidUpdate() {
+    console.log("Update");
+  }
+  componentWillMount() {
+    console.log("Bye");
+  }
+  render() {
+    console.log("render");
+    return (
+      <div>
+        <h1>The number is {this.state.count}</h1>
+        <button onClick={this.add}>Add</button>
+        <button onClick={this.minus}>Minus</button>
+      </div>
+    )  
+  }
+
 }
 
-Food.propTypes = {
-  name: PropTypes.string.isRequired,
-  rating: PropTypes.number.isRequired
-};
 
-const foodILike = [
-  {id: 1, name: "kimchi", rating: 4},
-  {id: 2, name: "ramen", rating: 3},
-  {id: 3, name: "noodle", rating: 1}
-];
-
-function App() {
-  return <div>
-    {foodILike.map(dish => <Food key={dish.id} name={dish.name} rating={dish.rating} />)}
-    </div>;
-}
 
 export default App;
