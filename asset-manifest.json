@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/myfirstreact/static/css/main.8a5589dd.chunk.css",
-    "main.js": "/myfirstreact/static/js/main.bb8f86b0.chunk.js",
-    "main.js.map": "/myfirstreact/static/js/main.bb8f86b0.chunk.js.map",
+    "main.css": "/myfirstreact/static/css/main.f8733c22.chunk.css",
+    "main.js": "/myfirstreact/static/js/main.ac4522f2.chunk.js",
+    "main.js.map": "/myfirstreact/static/js/main.ac4522f2.chunk.js.map",
     "runtime-main.js": "/myfirstreact/static/js/runtime-main.df7a1397.js",
     "runtime-main.js.map": "/myfirstreact/static/js/runtime-main.df7a1397.js.map",
-    "static/js/2.398def0a.chunk.js": "/myfirstreact/static/js/2.398def0a.chunk.js",
-    "static/js/2.398def0a.chunk.js.map": "/myfirstreact/static/js/2.398def0a.chunk.js.map",
+    "static/js/2.b006c185.chunk.js": "/myfirstreact/static/js/2.b006c185.chunk.js",
+    "static/js/2.b006c185.chunk.js.map": "/myfirstreact/static/js/2.b006c185.chunk.js.map",
     "index.html": "/myfirstreact/index.html",
-    "precache-manifest.7572304988af024e165a538499c55127.js": "/myfirstreact/precache-manifest.7572304988af024e165a538499c55127.js",
+    "precache-manifest.4470a8322973ba950c747bdd8d0b9152.js": "/myfirstreact/precache-manifest.4470a8322973ba950c747bdd8d0b9152.js",
     "service-worker.js": "/myfirstreact/service-worker.js",
-    "static/css/main.8a5589dd.chunk.css.map": "/myfirstreact/static/css/main.8a5589dd.chunk.css.map",
-    "static/js/2.398def0a.chunk.js.LICENSE.txt": "/myfirstreact/static/js/2.398def0a.chunk.js.LICENSE.txt"
+    "static/css/main.f8733c22.chunk.css.map": "/myfirstreact/static/css/main.f8733c22.chunk.css.map",
+    "static/js/2.b006c185.chunk.js.LICENSE.txt": "/myfirstreact/static/js/2.b006c185.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.df7a1397.js",
-    "static/js/2.398def0a.chunk.js",
-    "static/css/main.8a5589dd.chunk.css",
-    "static/js/main.bb8f86b0.chunk.js"
+    "static/js/2.b006c185.chunk.js",
+    "static/css/main.f8733c22.chunk.css",
+    "static/js/main.ac4522f2.chunk.js"
   ]
 }
